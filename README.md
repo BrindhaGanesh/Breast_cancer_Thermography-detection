@@ -5,3 +5,7 @@ This project implements an image classification pipeline using PyTorch to classi
 The dataset is sourced from Kaggle:
 Breast Cancer Detection Using Thermography by Thilak02
 URL: https://www.kaggle.com/datasets/thilak02/breast-cancer-detection-using-thermography/data
+
+Learnings: 
+1. when we try to balance the class distribution, oversampling should be done after train-val-test split. doing it before the split will bring data leakage problem
+   
