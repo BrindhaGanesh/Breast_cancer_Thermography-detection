@@ -6,6 +6,10 @@ The dataset is sourced from Kaggle:
 Breast Cancer Detection Using Thermography by Thilak02
 URL: https://www.kaggle.com/datasets/thilak02/breast-cancer-detection-using-thermography/data
 
-Learnings: 
+To consider:
 1. when we try to balance the class distribution, oversampling should be done after train-val-test split. doing it before the split will bring data leakage problem
+
+To improve: 
+Image preprocesisng to get beter features for thermal images.
+recall for sick class is very low, we need to balance and try to imporve the score.
    
